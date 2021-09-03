@@ -6,7 +6,7 @@
         <div>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <router-link class="nav-link" to="/">Home</router-link>
+              <router-link class="nav-link" to="/">Inicio</router-link>
             </li>
             <li class="nav-item">
               <router-link class="nav-link" to="/register"
@@ -14,12 +14,16 @@
               >
             </li>
             <li class="nav-item dropdown">
-              <router-link class="nav-link" to="/login">Login</router-link>
+              <router-link class="nav-link" to="/login"
+                >Inicio de sesión</router-link
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Setting</a>
+              <router-link class="nav-link" to="/admin-proveedores"
+                >Administrar proveedores</router-link
+              >
             </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -36,7 +40,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Log Out</a>
               </div>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
